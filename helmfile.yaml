@@ -1,3 +1,7 @@
+repositories:
+  - name: helloworld 
+    url: git+https://github.com/lvoxx/helm-staging.git?ref=main
+
 releases:
   - name: helloworldrelease
     chart: helloworld
