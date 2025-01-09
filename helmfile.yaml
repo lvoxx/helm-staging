@@ -1,0 +1,20 @@
+releases:
+  - name: helloworldrelease
+    chart: helloworld
+    installed: true
+    atomic: false
+    cleanupOnFail: false
+    createNamespace: true
+    devel: false
+    disableValidation: false
+    disableValidationOnInstall: false
+    disableOpenAPIValidation: false
+    historyMax: 10
+    skipDeps: false
+    cascade: background
+    insecureSkipTLSVerify: false
+    timeout: 300
+    recreatePods: false
+    force: false
+    wait: false
+    waitForJobs: false
